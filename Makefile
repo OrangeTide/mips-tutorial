@@ -7,5 +7,5 @@ AR = mips-linux-gnu-ar
 
 ##
 CFLAGS += -Wall -W -std=c99 -pedantic -static
-all :: false true hello
-clean :: ; $(RM) false true hello
+all :: false true hello yes
+clean :: ; $(RM) false true hello yes
